@@ -1,32 +1,63 @@
-App de Cotação de Moedas
+📱 App de Cotação de Moedas
 
-Este é um aplicativo simples para consultar cotações de moedas em tempo real, utilizando a API Frankfurter:
+Um aplicativo Android desenvolvido em Kotlin, criado para consultar cotações de moedas em tempo real utilizando a API pública Frankfurter.
+
+O app permite selecionar a moeda de origem, moeda de destino e um valor para conversão, retornando instantaneamente a taxa atualizada.
+
+🏗️ Estrutura da Arquitetura
+/app
+ ├── java/com/example/cotacao
+ │     ├── MainActivity.kt       # Tela principal e lógica da conversão
+ │     └── ApiService.kt         # Interface Retrofit para acessar a API
+ ├── res/layout
+ │     └── activity_main.xml     # Layout da tela (inputs, botões, resultado)
+ ├── res/values
+ │     └── strings.xml           # Strings utilizadas no app
+ └── AndroidManifest.xml         # Configuração geral do aplicativo
+
+
+Principais pontos:
+
+Uso de Retrofit para requisições HTTP
+
+Interface simples em XML
+
+Conversão realizada diretamente com os valores retornados da API
+
+📸 Capturas de Tela
+
+Adicione suas imagens nesta seção quando estiverem disponíveis:
+
+![Tela Principal](./screenshots/tela-principal.png)
+![Resultado da Conversão](./screenshots/resultado.png)
+
+
+Crie a pasta:
+
+/screenshots
+
+
+e coloque suas imagens nela.
+
+▶️ Como Usar
+
+Abra o aplicativo no dispositivo ou emulador Android.
+
+Selecione a moeda de origem e a de destino.
+
+Digite o valor desejado.
+
+Toque no botão para obter a cotação atualizada.
+
+A conversão é feita automaticamente com os dados da API.
+
+📚 Referências Utilizadas
+
+Frankfurter API
 https://www.frankfurter.app/docs/
 
-🔧 Como funciona
+Retrofit (Square)
+https://square.github.io/retrofit/
 
-O app faz requisições à API para obter o valor atualizado das principais moedas.
-Basta selecionar a moeda de origem, a moeda de destino e informar o valor que deseja converter.
-
-📌 Recursos
-
-Consulta rápida de taxas de câmbio
-
-Conversão automática entre moedas
-
-Uso da API Frankfurter (sem necessidade de chave)
-
-▶️ Uso
-
-Abra o aplicativo.
-
-Escolha as moedas desejadas.
-
-Informe o valor.
-
-Veja a cotação atualizada.
-
-📚 API utilizada
-
-Toda a cotação é obtida através da API pública Frankfurter.
-Documentação: https://www.frankfurter.app/docs/
+Android Developer Documentation
+https://developer.android.com/docs
