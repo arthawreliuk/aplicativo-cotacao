@@ -26,18 +26,7 @@ Conversão realizada diretamente com os valores retornados da API
 
 📸 Capturas de Tela
 
-Adicione suas imagens nesta seção quando estiverem disponíveis:
-
-![Tela Principal](./screenshots/tela-principal.png)
-![Resultado da Conversão](./screenshots/resultado.png)
-
-
-Crie a pasta:
-
-/screenshots
-
-
-e coloque suas imagens nela.
+[aplicativo-cotacao-moedas.pdf](https://github.com/user-attachments/files/23777228/aplicativo-cotacao-moedas.pdf)
 
 ▶️ Como Usar
 
